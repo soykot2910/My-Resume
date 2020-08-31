@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.col-md-4{
+    background: #292D3E;
+    padding-right: none;
+}
+.my-img{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+.info{
+    font-size: 1.3rem;
+}
+.info-name-font{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.info-details-font{
+   font-size: 1.1rem;
+   font-family: cursive;
+}
+.heading-wrapper{
+    background: rgb(228, 224, 224);
+    padding-left: 70px;
+}
+.header{
+    background: rgb(228, 224, 224);
+    padding-left: 63px;
+}
+.about-me-details {
+    padding-left: 123px;
+}
+.year{
+  width: 125px;
+  padding-left: 20px;
+}
+.educaton-description{
+  padding-left: -20px;
+}
+.educaton-description p,.expreience-description p{
+  margin-top: -10px;
+}
+
+
+.additional-information{
+    padding: 10px;
+    padding-left: 130px;
+}
+.additional-information ol{
+    font-size: 1rem;
+    font-weight: bold;
+}
+@media screen and (max-width:768px){
+    .sidebar{
+        padding:20px 60px;
+    }
+}
+@media screen and (min-width:1200px){
+    .educaton-description{
+        padding-left:0;
+      }
+      .year{
+        width: 127px;
+      }
+      .expreience-description{
+          margin-left: 0;
+      }
+}
